@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="FactorioProject_sbandoli.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Factorio - A Factory and Survival Building Game</title>
+    <link rel="stylesheet" type="text/css" href="css/factorystyles.css">
+    <link rel="icon" type="image/png" href="images/cogWheel.png">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <header>
+
+        <img src="images/factorioLogo.png" alt="Factorio Header Logo" width="600" height="50"/>
+    </header>
+
+    <form id="form1" runat="server">
+
+        <! -- Attempting to add png to nav bar -->
+        <nav>
+            <asp:Menu ID="MainNavigation" runat="server" DataSourceID="MainNavDS" Orientation="Horizontal">
+
+            </asp:Menu>
+        </nav>
+
+        <main>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </main>
+
+    </form>
+
+    <footer>
+        <p><small>Copyright &copy; Factorio - A Factory and Survival Building Game - website by Sebestyen Bandoli</small></p>
+    </footer>
+
+    <asp:SiteMapDataSource ID="MainNavDS" runat="server" ShowStartingNode="false" />
+</body>
+</html>

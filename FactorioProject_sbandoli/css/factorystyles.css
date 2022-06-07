@@ -1,0 +1,124 @@
+body {
+    background-image: url('../images/damagedRustBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 1090px;
+}
+
+main {
+    background: rgba(255, 165, 0, 0.8);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 3px;
+    font-family: Helvetica, sans-serif;
+    margin: 10px auto;
+    padding: 10px 10px 10px 10px;
+    width: 1090px;
+    display: flex;
+}
+
+.float-right {
+    width: 240px;
+    height: 160px;
+    float: right;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 16px;
+    display: inline;
+}
+
+.column-left > img {
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin: 20px 10px 0 15px;
+}
+
+.column-left > p, .column-right > p {
+    margin: 20px;
+}
+
+blockquote {
+    color: rgba(238, 232, 170);
+    border-top: 3px dashed #DAA520;
+    border-bottom: 3px dashed #DAA520;
+    padding: 10px 0;
+    margin: 10px 10px 10px 10px;
+    float: right;
+    font-size: 125%;
+    width: 35%;
+}
+
+footer {
+    color: rgba(238, 232, 170);
+    border-color: #000000;
+    background: rgba(218, 165, 32, 0.8);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 12px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1108px;
+    text-align: center;
+}
+
+/*
+    Nav Styles
+*/
+
+nav {
+    margin: 10px auto;
+    width: 1090px;
+}
+
+#MainNavigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    #MainNavigation ul.level1 > li {
+        display: block;
+        float: left;
+    }
+
+        #MainNavigation ul.level1 > li > a {
+            margin: 10px 1px;
+        }
+
+    #MainNavigation ul.level1 a {
+        background: rgba(218, 165, 32, 0.8);
+        border-color: rgba(238, 232, 170);
+        border-width: 1px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        color: rgba(240, 230, 140, 0.8);
+        font-size: 125%;
+        display: block;
+    }
+
+        #MainNavigation ul.level1 a:hover {
+            background-color: rgba(238, 232, 170);
+            border-color: rgba(0, 98, 128, 0.8);
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 5px;
+            color: rgba(0, 98, 128, 0.8 );
+        }
