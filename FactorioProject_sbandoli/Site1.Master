@@ -37,7 +37,8 @@
     </form>
 
     <footer>
-        <p><small>Copyright &copy; Factorio - A Factory and Survival Building Game - website by Sebestyen Bandoli</small></p>
+        <p><small>Copyright &copy; Factorio - A Factory and Survival Building Game - website by Sebestyen Bandoli</small></p><br />
+        <p><small><a href="https://github.com/Bertania">Github</a></small></p>
     </footer>
 
     <asp:SiteMapDataSource ID="MainNavDS" runat="server" ShowStartingNode="false" />
